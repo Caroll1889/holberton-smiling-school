@@ -1,0 +1,140 @@
+body {
+    font-family: 'Source Sans Pro';
+}
+
+h3 {
+    color: #c271ff;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.header {
+    background-image: url(./images/pic_1.jpg);
+    background-repeat: no-repeat;
+    background-color: #071629;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+nav a {
+    font-size: 13px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+li {
+    margin-right: 30px;
+}
+
+.link:hover {
+    color: #c271ff;
+}
+
+.heading-homepage {
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.list-header {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.purple-button {
+    background-color: #c271ff;
+    border-radius: 50px;
+    border-color: #c271ff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.purple-button:hover {
+    opacity: 0.9;
+}
+
+.purple {
+    color: #c271ff;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.heading-two {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.image {
+    border-radius: 50%;
+}
+
+.name {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.italic {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.section-purple {
+    background-color: #c271ff;
+    height: 300px;
+}
+
+.paragraph-carousel {
+    font-size: 18px;
+    font-weight: 400;
+    width: 550px;
+}
+
+.popular {
+    background-color: white;
+}
+
+.paragraph-card {
+    width: 240px;
+    color: rgba(7, 22, 41, 0.501584);
+}
+
+.cards {
+    width: 270px; 
+    height: 410px;
+}
+
+.smiles {
+    background-color: #071629;
+    height: 400px;
+}
+
+.paragraph-smile {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer {
+    background: #071629;
+    height: 220px;
+}
+
+.social {
+    color: white;
+    font-size: 30px;
+}
+
+.social:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.footer p {
+    opacity: 15%;
+}
