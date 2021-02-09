@@ -2,6 +2,8 @@ body {
     font-family: 'Source Sans Pro';
 }
 
+/* HOMEPAGE */
+
 h3 {
     color: #c271ff;
     font-weight: 600;
@@ -38,6 +40,11 @@ li {
 
 .heading-homepage {
     font-size: 100px;
+    font-weight: 700;
+}
+
+.heading-price {
+    font-size: 60px;
     font-weight: 700;
 }
 
@@ -105,14 +112,9 @@ li {
     color: rgba(7, 22, 41, 0.501584);
 }
 
-.cards {
-    width: 270px; 
-    height: 410px;
-}
 
 .smiles {
     background-color: #071629;
-    height: 400px;
 }
 
 .paragraph-smile {
@@ -120,14 +122,16 @@ li {
     font-weight: 400;
 }
 
+/* FOOTER */
+
 .footer {
     background: #071629;
-    height: 220px;
 }
 
 .social {
     color: white;
     font-size: 30px;
+    text-decoration: none;
 }
 
 .social:hover {
@@ -137,4 +141,130 @@ li {
 
 .footer p {
     opacity: 15%;
+}
+
+/* PRICING */
+
+.header-pricing {
+    background-image: url(./images/pic_2.jpg);
+    background-repeat: no-repeat;
+    background-color: #071629;
+    background-size: cover;
+    width: 100%;
+    height: 1100px;
+}
+
+.price {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.prices {
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 50%;
+}
+
+.holberton_school-icon-check {
+    font-size: 20px;
+    color: green;
+    
+}
+
+.check-1 {
+    margin-left: 260px;
+    margin-right: 10px;
+}
+
+.check-2 {
+    width: 10%;
+    margin-left: 120px;
+    padding-left: 110px;
+}
+
+.check-3 {
+    margin-left: 250px;
+    margin-right: 10px;
+}
+
+.check-4 {
+    width: 10%;
+    margin-left: 115px;
+    padding-left: 110px;
+}
+
+.check-5 {
+    margin-left: 205px;
+    margin-right: 10px;
+}
+
+.check-6 {
+    width: 10%;
+    margin-left: 115px;
+    padding-left: 110px;
+}
+
+.check-7 {
+    width: 10%;
+    margin-left: 680px;
+    padding-left: 110px;
+}
+
+.check-8 {
+    width: 10%;
+    margin-left: 550px;
+    padding-left: 110px;
+}
+
+/* FAQ */
+
+h2 {
+    font-size: 60px;
+}
+
+.fqa-paragraph {
+    color: rgba(7, 22, 41, 0.501584);
+}
+
+/* COURSES */
+
+.header-courses {
+    background-image: url(images/pic_3.jpg);
+    
+}
+
+.coin {
+    font-family: 'Coiny';
+    font-size: 32px;
+    font-weight: 400;
+    width: 480px;
+    height: 70px;
+}
+
+.purple-smile {
+    color: #c271ff;
+}
+
+.section-purple-courses {
+    background-color: #c271ff;
+    
+}
+
+.form {
+    background-color: rgb(211, 158, 211);
+    opacity: 50%;
+    width: 100%;
+    height: 30px;
+}
+
+.drop {
+    background-color: rgb(211, 158, 211);
+    opacity: 50%;
+    border:  rgb(211, 158, 211);
+    height: 30px;
+}
+
+.text-courses {
+    font-size: 13px;
+    font-weight: 900;
 }
