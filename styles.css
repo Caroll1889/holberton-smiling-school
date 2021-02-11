@@ -94,13 +94,12 @@ li {
 
 .section-purple {
     background-color: #c271ff;
-    height: 300px;
 }
 
 .paragraph-carousel {
     font-size: 18px;
     font-weight: 400;
-    width: 550px;
+    
 }
 
 .popular {
@@ -108,7 +107,6 @@ li {
 }
 
 .paragraph-card {
-    width: 240px;
     color: rgba(7, 22, 41, 0.501584);
 }
 
@@ -151,7 +149,6 @@ li {
     background-color: #071629;
     background-size: cover;
     width: 100%;
-    height: 1100px;
 }
 
 .price {
@@ -230,15 +227,18 @@ h2 {
 
 .header-courses {
     background-image: url(images/pic_3.jpg);
-    
+    background-repeat: no-repeat;
+    background-color: #071629;
+    background-size: cover;
+    width: 100%;
 }
 
 .coin {
     font-family: 'Coiny';
     font-size: 32px;
     font-weight: 400;
-    width: 480px;
     height: 70px;
+    width: 480px;
 }
 
 .purple-smile {
@@ -267,4 +267,11 @@ h2 {
 .text-courses {
     font-size: 13px;
     font-weight: 900;
+}
+
+h4 {
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(7, 22, 41, 0.296247);;
 }
