@@ -34,8 +34,8 @@ li {
     margin-right: 30px;
 }
 
-.link:hover {
-    color: #c271ff;
+.header .nav-link:hover {
+    color: #c271ff !important;
 }
 
 .heading-homepage {
@@ -151,6 +151,11 @@ li {
     width: 100%;
 }
 
+.header-pricing .nav-link:hover {
+    color: #c271ff !important;
+    text-decoration: underline;
+}
+
 .price {
     font-size: 40px;
     font-weight: 700;
@@ -166,51 +171,6 @@ li {
     font-size: 20px;
     color: green;
     
-}
-
-.check-1 {
-    margin-left: 260px;
-    margin-right: 10px;
-}
-
-.check-2 {
-    width: 10%;
-    margin-left: 120px;
-    padding-left: 110px;
-}
-
-.check-3 {
-    margin-left: 250px;
-    margin-right: 10px;
-}
-
-.check-4 {
-    width: 10%;
-    margin-left: 115px;
-    padding-left: 110px;
-}
-
-.check-5 {
-    margin-left: 205px;
-    margin-right: 10px;
-}
-
-.check-6 {
-    width: 10%;
-    margin-left: 115px;
-    padding-left: 110px;
-}
-
-.check-7 {
-    width: 10%;
-    margin-left: 680px;
-    padding-left: 110px;
-}
-
-.check-8 {
-    width: 10%;
-    margin-left: 550px;
-    padding-left: 110px;
 }
 
 /* FAQ */
@@ -231,6 +191,11 @@ h2 {
     background-color: #071629;
     background-size: cover;
     width: 100%;
+}
+
+.header-courses .nav-link:hover {
+    color: #c271ff !important;
+    text-decoration: underline;
 }
 
 .coin {
